@@ -1,0 +1,63 @@
+/* Cart.css */
+
+.mainCart {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding: 20px 0;
+  }
+  
+  .innerCart {
+    display: flex;
+    align-items: center;
+    width: 70%;
+  }
+  
+  .img {
+    margin-right: 20px;
+  }
+  
+  .img img {
+    width: 100px;
+    height: auto;
+  }
+  
+  .buttons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .buttons button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+  }
+  
+  .buttons button:focus {
+    outline: none;
+  }
+  
+  .totalSum {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .clear {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .clear button {
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .clear button:hover {
+    background-color: #cc0000;
+  }
+  
